@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pl"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+    <head layout:fragment="head">
+        <meta charset="UTF-8">
+        <title layout:title-pattern="$CONTENT_TITLE - $LAYOUT_TITLE">JanusX</title>
+        <link rel="stylesheet" href="../static/styles.css" th:href="@{styles.css}">
+    </head>
+    <body>
+        <header>
+            <a class="logo" th:href="@{/}" href="#">
+                <img src="../static/logo.png" alt="Page logo" th:src="@{logo.png}">
+            </a>
+            <a class="title" th:href="@{/}" href="#">
+                <h1>JanusX IT Consulting</h1>
+            </a>
+        </header>
+        <main layout:fragment="content">
+            Treść strony
+        </main>
+        <footer>
+            <p>Made by &copy;a-dreszler </p>
+        </footer>
+    </body>
+</html>
