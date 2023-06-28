@@ -1,13 +1,18 @@
 package pl.adreszler.contactpage;
 
 class Email {
+//rwxvmzjvjfpndrcq
 
     private String sender;
     private String recipient;
     private String subject;
     private String content;
 
-    public Email() {
+    public Email(String sender, String recipient, String subject, String content) {
+        this.sender = sender;
+        this.recipient = recipient;
+        this.subject = subject;
+        this.content = content;
     }
 
     public String getSender() {
