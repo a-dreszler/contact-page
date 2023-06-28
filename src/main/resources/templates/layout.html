@@ -19,6 +19,7 @@
         <main layout:fragment="content">
             Treść strony
         </main>
+        <p th:unless="${home}" class="link"><a href="#" th:href="@{/}">Powrót do strony głównej</a></p>
         <footer>
             <p>Made by &copy;a-dreszler </p>
         </footer>
