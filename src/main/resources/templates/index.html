@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl" xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layout}">
+    <head>
+        <title>Strona główna</title>
+    </head>
+    <body>
+        <main layout:fragment="content">
+            <div class="container">
+                <h2>Witaj w JanusX IT Consulting!</h2>
+                <p>
+                    Witaj w naszej firmie , specjalizującej się w dostarczaniu innowacyjnych rozwiązań
+                    technologicznych dla przedsiębiorstw. Jesteśmy zespołem ekspertów, którzy łączą swoją wiedzę i
+                    doświadczenie, aby pomagać naszym klientom w osiąganiu sukcesów w erze cyfrowej.
+                </p>
+                <p>
+                    Nasze usługi konsultingowe są skrojone indywidualnie, aby spełnić unikalne potrzeby każdej
+                    organizacji. Działamy w różnych obszarach, od strategii informatycznej i optymalizacji procesów
+                    biznesowych po rozwój oprogramowania, zarządzanie projektem i bezpieczeństwo cybernetyczne.
+                </p>
+                <p>
+                    Nasi eksperci nie tylko posiadają wiedzę techniczną, ale również rozumieją aspekty biznesowe.
+                    Dlatego możemy doradzać naszym klientom nie tylko w zakresie technologii, ale także pomagać im w
+                    identyfikacji szans i rozwiązywaniu problemów biznesowych z wykorzystaniem nowoczesnych narzędzi IT.
+                </p>
+                <p>
+                    Wierzymy w długoterminowe partnerstwo z naszymi klientami, dlatego też skupiamy się na budowaniu
+                    trwałych relacji opartych na zaufaniu, profesjonalizmie i wynikach. Naszym celem jest wspieranie
+                    rozwoju naszych klientów i umożliwianie im wykorzystania pełnego potencjału technologii.
+                </p>
+                <p>
+                    Zapraszamy do zapoznania się z naszą ofertą i skontaktowania się z nami. Razem możemy zdefiniować i
+                    zrealizować Twoje cele biznesowe, dostarczając innowacyjnych rozwiązań IT, które przyspieszą Twój
+                    sukces.
+                </p>
+                <p class="link">
+                    <a th:href="@{/kontakt}">
+                        <b>Skontaktuj się z nami!</b>
+                    </a>
+                </p>
+            </div>
+        </main>
+    </body>
+</html>
