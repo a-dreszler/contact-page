@@ -11,5 +11,5 @@ In the home page you can read the page description and choose to contact page ow
 ![obraz](https://github.com/a-dreszler/contact-page/assets/117439235/bda175f7-d254-4b66-b05e-36d4fa8cbf91)
 Home page
 
-![obraz](https://github.com/a-dreszler/contact-page/assets/117439235/a07acb80-7856-4bd0-9576-7170e125b86a)
+![obraz](https://github.com/a-dreszler/contact-page/assets/117439235/8954f535-166a-46fd-9955-4d088d32417c)
 Contact form
