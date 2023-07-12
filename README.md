@@ -13,3 +13,5 @@ Home page
 
 ![obraz](https://github.com/a-dreszler/contact-page/assets/117439235/8954f535-166a-46fd-9955-4d088d32417c)
 Contact form
+
+*This app is not deployed yet
